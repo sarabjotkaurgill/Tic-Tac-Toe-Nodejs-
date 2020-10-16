@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div>
+        <h1> TIC TAC TOE</h1>
+    </div>
+
+    <div id="player">
+        <form action="/" method="POST">
+            <div>
+                <h2>Player 1</h2>
+                <label>Name</label><br>
+                <input type="text" name="name1" id="player-name1" required /><br><br>
+                <label>Family Name</label><br>
+                <input type="text" name="familyname1" id="player-family-name1" required /><br><br>
+                <label>Email</label><br>
+                <input type="email" name="email1" id="player-email1" required /><br>
+                <h2 id="sign1">X</h2><br>
+            </div>
+
+            <div>
+                <h2>Player 2</h2>
+                <label>Name</label><br>
+                <input type="text" name="name2" id="player-name2" required /><br><br>
+                <label>Family Name</label><br>
+                <input type="text" name="familyname2" id="player-family-name2" required /><br><br>
+                <label>Email</label><br>
+                <input type="email" name="email2" id="player-email2" required /><br>
+                <h2 id="sign2">O</h2><br>
+            </div>
+
+            <div id="empty-field">
+            </div><br>
+
+            <div>
+                <input type="submit" id="startButton" value="Start" />
+                <!--<button id="startButton">Start</button>-->
+            </div>
+        </form>
+    </div>
+
+    <script src="js/tic-tac-toe.js"></script>
+</body>
+
+</html>
